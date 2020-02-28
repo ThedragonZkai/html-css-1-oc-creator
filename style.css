@@ -1,0 +1,173 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: dont-override;
+  background-color: #373fff;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0px;
+}
+
+.bg {
+  background-image: url("https://cdn.glitch.com/1495b66e-9f3b-4964-8fee-bcf137b4ab24%2Fshika.png?v=1582622869811");
+
+  height: 100%;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg1 {
+  background-image: url("https://cdn.glitch.com/1495b66e-9f3b-4964-8fee-bcf137b4ab24%2Faccelerate1.png?v=1582791432994");
+
+  height: 100%;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  background-image: url("https://cdn.glitch.com/1495b66e-9f3b-4964-8fee-bcf137b4ab24%2Fjade2.png?v=1582791450570");
+
+  height: 100%;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg3 {
+  background-image: url("https://cdn.glitch.com/1495b66e-9f3b-4964-8fee-bcf137b4ab24%2Fvignette1.png?v=1582623193503");
+
+  height: 100%;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin-left: 5em;
+  margin-top: 2em;
+  text-shadow: 0px 0px 5px white;
+  font-style: italic;
+  color: #373fff;
+}
+
+p {
+  text-align: left;
+}
+
+select {
+  float: right;
+}
+
+fieldset {
+  margin: 0em 12em;
+  height: 550px;
+  background-color: rgba(255, 255, 255, 80%);
+  box-shadow: 0px 0px 25px 2px;
+}
+
+div {
+  width: 200px;
+}
+
+#bio {
+  height: 7em;
+  width: 30em;
+  contenteditable: true;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 6px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #373fff;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+  border-left: 1px solid #bbb;
+}
+
+.search {
+  float: center;
+  margin-top: 1em;
+}
+
+.explorediv {
+}
+
+.discussion1 {
+  margin-top: 10px;
+  display: inline-block;
+  width: 49%;
+  height: 40em;
+  border: 1px solid black;
+}
+
+.discussion2 {
+  margin-top: 10px;
+  display: inline-block;
+  width: 49%;
+  height: 40em;
+  border: 1px solid black;
+}
+
+.discussioninput {
+}
+
+legend {
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+  text-shadow: 0px 0px 3px black;
+}
+
+.stick {
+  display: inline;
+  float: left;
+}
+
+.homeprobs {
+  background-color: rgba(255, 255, 255, 0%);
+}
+
+.probs {
+}
